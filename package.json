@@ -1,0 +1,28 @@
+{
+  "name": "tutorjoe-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polawatHuang/tutorjoe-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/polawatHuang/tutorjoe-backend/issues"
+  },
+  "homepage": "https://github.com/polawatHuang/tutorjoe-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0",
+    "pdfkit": "^0.18.0",
+    "promptpay-qr": "^0.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
