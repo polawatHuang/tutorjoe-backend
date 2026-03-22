@@ -2,7 +2,7 @@
 router.post("/create", async (req, res) => {
   const { amount } = req.body;
 
-  const qr = createPromptPayQR("0812345678", amount);
+  const qr = createPromptPayQR("0957249324", amount);
 
   res.json({ qr });
 });
